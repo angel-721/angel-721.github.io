@@ -24,9 +24,9 @@ markup:
 params:
   title: "Angel Velasquez"
   description: A personal portfolio site for Angel Velasquez
-  favicon: "/fav.png"
+  favicon: "/images/av-logo.png"
 
-  animate: false
+  animate: true
 
   font:
     fontSize: 1rem # default: 1rem
@@ -55,8 +55,8 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "AV" # Brand name for the brand | default is the title variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
+    brandName: "" # Brand name for the brand | default is the title variable
     disableSearch: true
     # searchPlaceholder: "Search"
     menus:
@@ -81,9 +81,9 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "/files/resume.pdf"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
@@ -100,7 +100,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    # image: "/images/me.png"
+    image: "/images/vr-me.png"
     content: |-
       I currently intern as a VR software engineer for [Utah Tech Online](https://online.utahtech.edu/immersive/). I'm a senior Software Engineering major at Utah Tech University with a emphasis in Data Science and AI.
 
@@ -114,6 +114,10 @@ params:
         - "C++"
         - "HTML/CSS"
         - "JavaScript"
+        - "SQLite"
+        - "Git/SCM"
+        - "Tableau"
+
 
   # Experience
   experience:
@@ -128,7 +132,9 @@ params:
           enable: false
           name: ""
           url: ""
-        content: "I'm part of a team that develops VR learning experiences for Utah Tech Online Students. The most recent project that I'm helping with is a physics lab course made in Unity."
+        skills: ["C#", "Unity", "VR", "Agile"]
+        content: "I'm part of a team that develops VR learning experiences for Utah Tech Online Students. The most recent project that I'm helping with is a physics lab course made in Unity. I made sure to document my work so that future interns can easily pick up where I left off."
+
 
 
   # Education
@@ -142,7 +148,7 @@ params:
           name: "Utah Tech University"
           url: "https://cd.utahtech.edu/"
         date: "2022 - 2024"
-        GPA: "3.9 out of 4.0"
+        GPA: "3.90 out of 4.0"
         content: |-
           - Coursework in Machine Learning, Artificial Intelligence, and Data Visualization.
           - Graduated with A.S in general studies with high honors.
