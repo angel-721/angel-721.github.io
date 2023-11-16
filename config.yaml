@@ -73,7 +73,7 @@ params:
     intro: "Hi, my name is"
     title: "Angel Velasquez."
     # subtitle: "I build things for the web"
-    content: "Aspiring data scientist with a strong interest in human computer interaction."
+    content: "Aspiring data scientist with a passion in game development and analytics."
     image: https://media.licdn.com/dms/image/D5603AQGoafS7VmoVng/profile-displayphoto-shrink_800_800/0/1696295200250?e=1701907200&v=beta&t=cpqvHh5o2WjLDYwzRcVk-oDE_0guZ1Gd61eddcQO48Q
     bottomImage:
       enable: true
