@@ -64,7 +64,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -90,6 +90,8 @@ params:
           url: https://github.com/angel-721
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/angel-velasquez-569102184/
+        - icon: fab fa-gitlab
+          url: https://gitlab.com/angel-721
         # - icon: fab fa-twitter
         #   url: https://example.com
       # customIcons:
@@ -102,9 +104,10 @@ params:
     title: "About Me"
     image: "/images/vr-me.png"
     content: |-
-      I currently intern as a VR software engineer for [Utah Tech Online](https://online.utahtech.edu/immersive/). I'm a senior Software Engineering major at Utah Tech University with a emphasis in Data Science and AI.
+      I currently intern as a VR software engineer for [Utah Tech Online](https://online.utahtech.edu/immersive/). 
+      I'm a senior Software Engineering major at Utah Tech University with a emphasis in Data Science and AI. 
+      I hope to enter a graduate program in the Fall of 2024.
 
-#      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -161,26 +164,26 @@ params:
           url: "https://example.com"
 
   # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Non-Resident University Scholar
-        content: Second highest scholarship awarded to non-resident students at Utah Tech University.
-        # url: https://example.com
-        # image: /images/achievment.jpg
-      - title: Utah Tech Department of Computing Programming Competition(2023)
-        content: Second place in the advanced division of the Utah Tech Department of Computing Programming Competition.
-        image: "/images/contest.jpg"
-      # - title: Hugo Profile
-      #   content: Developed a theme and getting 1K+ downloads per month.
-      #   url: "https://github.com/gurusabarish/hugo-profile"
-      #   image: /images/achievment.jpg
-      - title: ASPIRE-Utah Scholar
-        content: Awarded to Utah TRIO students who have shown academic excellence. TRIO is a program to help first generation, income-eligible, and students with disabilities succeed in higher education.
-      # - title: Google Summer of Code
-      #   content: Contributed to a open source project.
-      #   url: https://example.com
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Non-Resident University Scholar
+  #       content: Second highest scholarship awarded to non-resident students at Utah Tech University.
+  #       # url: https://example.com
+  #       # image: /images/achievment.jpg
+  #     - title: Utah Tech Department of Computing Programming Competition(2023)
+  #       content: Second place in the advanced division of the Utah Tech Department of Computing Programming Competition.
+  #       image: "/images/contest.jpg"
+  #     # - title: Hugo Profile
+  #     #   content: Developed a theme and getting 1K+ downloads per month.
+  #     #   url: "https://github.com/gurusabarish/hugo-profile"
+  #     #   image: /images/achievment.jpg
+  #     - title: ASPIRE-Utah Scholar
+  #       content: Awarded to Utah TRIO students who have shown academic excellence. TRIO is a program to help first generation, income-eligible, and students with disabilities succeed in higher education.
+  #     # - title: Google Summer of Code
+  #     #   content: Contributed to a open source project.
+  #     #   url: https://example.com
 
   # projects
   projects:
@@ -232,6 +235,23 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/angel-721/tapology-python-parser
+
+      - title: Godot Image Classification Game
+        content: A Godot game that uses a Pytorch convolutional neural network model to classify screenshots in-game.
+        # image: /images/projects/profile2.jpg
+        image: https://user-images.githubusercontent.com/75283919/284039314-fb6a9e6d-54fe-4bd3-a1fd-e95d86cb0717.png
+        featured:
+          # name: Demo V2
+          # link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Python"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/angel-721/godot-image-classification/tree/main
+          - icon: fab fa-gitlab
+            url: https://gitlab.com/angel-721/godot-code-camp
+
+
 
   #Contact
   contact:
